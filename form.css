@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url(pexels-ivan-babydov-7788350.jpg) ;
+}
+
+table, th, td{
+    padding: 20px;
+    justify-content: center;
+}
+
+tr, td {
+    margin-bottom: 15px;
+    padding: -15px;
+}
+
+.container{
+    width: 40%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    background-color: transparent;
+    width: 60%;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(98, 98, 98, 0.24), -10px -10px 20px rgba(111, 110, 110, 0.322);
+    border-top: 10px solid #000000;
+}
+
+form img{
+    width: 27px;
+    margin-right: 10px;
+    opacity: 0.8;
+}
+
+form h1{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 30px;
+}
+
+form h5{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: -30px;
+}
+
+.divcontainer{
+    border: 1px rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+    padding: 4px 10px;
+}
+
+.divcontainer input{
+    width: 85%;
+    height: 99%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding: 4px 10px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+}
+
+.button input{
+    background-color: #ffd359;
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+.button{
+    border: none;
+}
+
+.divsubcontainer{
+    width: 85%;
+    height: 99%;
+    margin-bottom: 47px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding: 4px 10px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+}
+
+.divsubcontainer img{
+    margin-right: 0;
+    width: 20px;
+    padding-left: 7px;
+}
+
+.sub{
+    border: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0;
+    margin-left: 25px;
+}
+
+#newsletter{
+    width: 20px;
+}
+
+#termsandconditions{
+    width: 20px;
+}
+
+.checkbox{
+    border: none;
+}
+
+.divcontainer select{
+    width: 100%;
+    padding: 10px;
+}
+
+.select{
+    padding: 0;
+    border: none;
+}
+
+select{
+    font-size: 16px;
+}
+
+select option{
+    font-size: 15px;
+}
+
+.gender{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 45px 5px -2px;
+}
+
+.genderbox{
+    border: none;
+    margin-top: -50px;
+    margin-left: 68px;
+}
+
+.gender input{
+    margin-right: 3px;
+}
